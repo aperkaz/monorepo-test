@@ -1,0 +1,13 @@
+{
+	"extends": "./tsconfig",
+	"compilerOptions": {
+		"outDir": "dist/types",
+		"declaration": true,
+		"declarationMap": true,
+		"isolatedModules": false,
+		"noEmit": false,
+		"allowJs": true,
+		"emitDeclarationOnly": true
+	},
+	"exclude": ["**/*.test.ts", "**/*.test.tsx", "**/*.stories.tsx", "node_modules"]
+}
